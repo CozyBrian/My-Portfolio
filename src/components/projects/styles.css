@@ -1,0 +1,11 @@
+.heading {
+  align-self: center;
+}
+
+.proj-box-con {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 18px;
+}

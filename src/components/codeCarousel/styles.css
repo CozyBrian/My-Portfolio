@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Source+Code+Pro:wght@500&display=swap');
+
+.carousel {
+  background-color: black;
+  padding: 50px;
+}
+
+.image-view-side {
+  background-color: darkblue;
+}
+
+.caro-text {
+  max-width: 200vw;
+  color: aliceblue;
+  font-family: 'Source Code Pro', monospace;
+}
+
+@media (min-width: 1200px) {
+  .caro-text {
+    font-size: 40px;
+  }
+}
+@media (max-width: 576.98px) {
+  .caro-text {
+    font-size: 25px;
+  }
+}
+
