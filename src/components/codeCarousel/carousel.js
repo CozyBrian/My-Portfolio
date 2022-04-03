@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Carousel = () => {
   return (
-    <div className="carousel row">
+    <div className="carousel row" id="home">
       <div className="code-text-container col-lg-7 ">
         <p className="caro-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

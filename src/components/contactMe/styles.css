@@ -1,0 +1,64 @@
+.contact-con {
+  min-height: 50vh;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.title-view {
+  flex-direction: row;
+}
+
+.title {
+  font-size: 7vh;
+}
+
+.icon {
+  color: aliceblue;
+  font-size: 120px;
+}
+
+.icon-label {
+  font-size: 22px;
+}
+
+.contact-info {
+  font-size: 20px;
+}
+@media (min-width: 957px) {
+  .clg-3 {
+    display: grid;
+    flex-direction: column;
+    flex: 0 0 auto; 
+    width: 25%;
+  }
+}
+@media (min-width: 768px)
+{
+  .cmd-6 {
+    display: grid;
+    flex: 0 0 auto; 
+    width: 50%;
+  }
+}
+@media (min-width: 576px)
+{
+  .csm {
+    flex-direction: column;
+    flex: 1 0;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 4vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .row {
+    display: grid;
+    justify-items: center;
+  }
+}

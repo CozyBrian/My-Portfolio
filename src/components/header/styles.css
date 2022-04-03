@@ -3,6 +3,6 @@
   color: black;
 }
 
-.navbar-collapse {
-  
+.navbar-nav {
+  justify-content: flex-end;
 }
