@@ -2,15 +2,20 @@
   font-size: 18px;
   color: white;
 }
-.navbar .navbar-expand-lg .navbar-light {
+.navbar .navbar-expand-lg .navbar-dark {
   background-color: rgba(255, 255, 255, 0);
 }
 
 .navbar-expand-lg{
   background-color: rgba(255, 255, 255, 0);
 }
-.navbar-light {
+.navbar-dark {
   background-color: rgba(0, 0, 0, 0.767);
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(255, 255, 255, 0.842);
+  border-color: rgba(255, 255, 255, 0.596);
 }
 
 .navbar-light .navbar-brand {

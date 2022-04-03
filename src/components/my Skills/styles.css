@@ -2,7 +2,6 @@
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  scroll-snap-align: start;
 }
 
 @media (max-width: 576px) {
@@ -24,11 +23,11 @@
 }
 
 .skill-title-text {
-
+  font-weight: bold;
 }
 
 .skill-subtitle-text {
-
+  font-weight: 500;
 }
 
 .skill-desc-text {

@@ -10,10 +10,18 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Carousel />
-      <SkillsView />
-      <ProjectView />
-      <ContactMeView />
+      <section className="child">
+        <Carousel />
+      </section>
+      <section className="child">
+        <SkillsView />
+      </section>
+      <section className="child">
+        <ProjectView />
+      </section>
+      <section className="child">
+        <ContactMeView />
+      </section>
       <Footer />
     </div>
   );
