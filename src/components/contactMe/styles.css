@@ -2,7 +2,9 @@
   min-height: 50vh;
   text-align: center;
   justify-content: center;
-  background-color: black;
+  background-color: #003B73;
+  box-shadow: 1px 4px 17px 5px rgba(0,0,0,0.22);
+  scroll-snap-align: start;
 }
 
 .title-view {

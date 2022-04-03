@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Source+Code+Pro:wght@500&display=swap');
 
 .carousel {
-  background-color: black;
+  background-color: #081e30;
   padding: 50px;
+  border-bottom-left-radius: 3.25rem;
+  border-bottom-right-radius: 3.25rem;
+  box-shadow: 1px 4px 17px 5px rgba(0,0,0,0.22);
+  scroll-snap-align: start;
 }
 
 .image-view-side {
@@ -20,7 +24,7 @@
     min-height: 100vh;
   }
   .caro-text {
-    font-size: 40px;
+    font-size: 45px;
   }
 }
 @media (max-width: 576.98px) {

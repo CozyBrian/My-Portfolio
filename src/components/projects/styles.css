@@ -1,3 +1,11 @@
+.proj-box-con {
+  flex-direction: row;
+  text-align: -webkit-center;
+  padding: 18px;
+  min-height: 100vh;
+  scroll-snap-align: start;
+}
+
 .heading {
   text-align: center;
   font-size: 8vh;
@@ -36,15 +44,14 @@
 }
 
 .card-body {
-  background-color: darkblue;
+  background-color: #2E8BC0;
   border-bottom-left-radius: 1.25rem;
   border-bottom-right-radius: 1.25rem;
   text-align: -webkit-auto;
 }
 
-.proj-box-con {
-  flex-direction: row;
-  text-align: -webkit-center;
-  padding: 18px;
-  min-height: 100vh;
+.btn-primary {
+  color: #fff;
+  background-color: #145DA0;
+  border-color: #145DA0;
 }

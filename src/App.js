@@ -4,6 +4,7 @@ import Carousel from "./components/codeCarousel/carousel";
 import ProjectView from "./components/projects/projectsview";
 import ContactMeView from "./components/contactMe/contact-me";
 import SkillsView from "./components/my Skills/skills";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SkillsView />
       <ProjectView />
       <ContactMeView />
+      <Footer />
     </div>
   );
 }

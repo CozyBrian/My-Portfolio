@@ -1,6 +1,28 @@
 .nav-link {
   font-size: 18px;
-  color: black;
+  color: white;
+}
+.navbar .navbar-expand-lg .navbar-light {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-expand-lg{
+  background-color: rgba(255, 255, 255, 0);
+}
+.navbar-light {
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .navbar-nav {

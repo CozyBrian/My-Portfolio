@@ -2,6 +2,7 @@
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  scroll-snap-align: start;
 }
 
 @media (max-width: 576px) {
@@ -15,9 +16,11 @@
 }
 
 .skill-info {
-  background-color: darkblue;
+  background-color: #2E8BC0;
+  border-radius: 1.25rem;
   text-align: center;
   padding: 20px;
+  box-shadow: 1px 4px 17px 5px rgba(0,0,0,0.22);
 }
 
 .skill-title-text {
