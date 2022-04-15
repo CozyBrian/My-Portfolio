@@ -1,4 +1,5 @@
 import "./App.css";
+import React from "react";
 import NavBar from "./components/header/navbar";
 import Carousel from "./components/codeCarousel/carousel";
 import ProjectView from "./components/projects/projectsview";
@@ -9,8 +10,8 @@ import Footer from "./components/footer/footer";
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <section className="child">
+      <section className="child" id="home">
+        <NavBar />
         <Carousel />
       </section>
       <section className="child">
