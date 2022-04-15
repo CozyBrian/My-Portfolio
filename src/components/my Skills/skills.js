@@ -6,7 +6,7 @@ const SkillsView = () => {
     <div className="skills-view d-flex justify-content-center" id="skills">
       <div className="container-lg skill-con ">
         <div className="row d-flex justify-content-center">
-          <div className="col-lg-4 col-md-8 col-sm-12 py-3">
+          <div className="col-lg-4 col-md-8 col-sm-10 py-3 mx-4">
             <div className="skill-info">
               <span className="icon">
                 <i class="fa-regular fa-window-maximize" />
@@ -34,7 +34,7 @@ const SkillsView = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-8 col-sm-10 py-3">
+          <div className="col-lg-4 col-md-8 col-sm-10 py-3 mx-4">
             <div className="skill-info">
               <span className="icon">
                 <i class="fa-solid fa-server" />
