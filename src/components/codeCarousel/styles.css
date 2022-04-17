@@ -2,18 +2,27 @@
 
 .carousel {
   background-color: #081e30;
-  padding: 50px;
+  padding: 61px 50px 50px 50px;
   border-bottom-left-radius: 3.25rem;
   border-bottom-right-radius: 3.25rem;
   box-shadow: 1px 4px 17px 5px rgba(0,0,0,0.22);
+}
+
+.row {
+  --bs-gutter-x: 0rem;
 }
 
 .image-view-side {
   background-color: darkblue;
 }
 
+.code-text-container {
+  background-color: dodgerblue;
+  align-items: center;
+  justify-content: center;
+}
+
 .caro-text {
-  max-width: 200vw;
   color: aliceblue;
   font-family: 'Source Code Pro', monospace;
 }
@@ -22,13 +31,48 @@
   .carousel {
     min-height: 100vh;
   }
-  .caro-text {
-    font-size: 45px;
-  }
 }
+
 @media (max-width: 576.98px) {
-  .caro-text {
-    font-size: 25px;
+  .carousel {
+    padding: 20px;
+  }
+  .window-nav {
+    display: none;
   }
 }
 
+.code-window-box {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #171717;
+  height: 89vh;
+}
+
+.code-text-box {
+  padding: 6vw;
+
+}
+
+.code-text-header {
+  font-size: 80px;
+}
+.code-text-subheader {
+  font-size: 20px;
+}
+
+.window-nav {
+  position: absolute;
+  top: 62px;
+  left: 60px;
+  flex-direction: row;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 4px;;
+  border-radius: 50%;
+  display: inline-block;
+}
