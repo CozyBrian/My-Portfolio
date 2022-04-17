@@ -1,7 +1,7 @@
 .proj-box-con {
   flex-direction: row;
   text-align: -webkit-center;
-  padding: 18px;
+  padding: 59px 18px 18px 18px;
   min-height: 100vh;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .card-img-top {
-  width: 50%;
+  width: 45%;
   align-self: center;
 }
 

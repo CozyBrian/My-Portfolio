@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styles.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
 const NavBar = () => {
+  // Sticky Menu Area
+  useEffect(() => {
+    window.addEventListener("scroll", isSticky);
+    return () => {
+      window.removeEventListener("scroll", isSticky);
+    };
+  });
+
+  /* Method that will fix header after a specific scrollable */
+  const isSticky = (e) => {
+    const header = document.getElementById("Header");
+    const scrollTop = window.scrollY;
+    scrollTop >= -1
+      ? header.classList.add("is-sticky")
+      : header.classList.remove("is-sticky");
+  };
+
   return (
-    <Navbar expand="lg" variant="dark">
+    <Navbar expand="lg" variant="dark" id="Header">
       <Container>
         <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
