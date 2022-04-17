@@ -8,7 +8,11 @@ const Carousel = () => {
       <div className="col-lg-8 ">
         <CodeWindow />
       </div>
-      <div className="image-view-side col-md"></div>
+      <div className="image-view-side col-md">
+        <div className="image-view-box">
+          <div className="imagee"></div>
+        </div>
+      </div>
     </div>
   );
 };
