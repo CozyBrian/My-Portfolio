@@ -18,21 +18,21 @@ const ContactMeView = () => {
           </div>
           <div className="clg-3 cmd-6 csm cont">
             <span className="icon">
-              <i class="fa-solid fa-mobile-button" />
+              <i className="fa-solid fa-mobile-button" />
             </span>
             <p className="icon-label">PHONE</p>
             <p className="contact-info">+233 23 345 5325</p>
           </div>
           <div className="clg-3 cmd-6 csm cont">
             <span className="icon">
-              <i class="fa-brands fa-github" />
+              <i className="fa-brands fa-github" />
             </span>
             <p className="icon-label">GITHUB</p>
             <p className="contact-info">CozyWho</p>
           </div>
           <div className="clg-3 cmd-6 csm cont">
             <span className="icon">
-              <i class="fa-brands fa-linkedin" />
+              <i className="fa-brands fa-linkedin" />
             </span>
             <p className="icon-label">LINKEDIN</p>
             <p className="contact-info">Kwabena Newton</p>

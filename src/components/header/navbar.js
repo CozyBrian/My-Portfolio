@@ -3,9 +3,17 @@ import "./styles.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
 const NavBar = () => {
+  const page1 = document.getElementById("home");
+  const page2 = document.getElementById("skills");
+  const page3 = document.getElementById("projects");
+  const page4 = document.getElementById("contact");
+
+  //const rect = page1.getBoundingClientRect();
+
   // Sticky Menu Area
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
+    //console.log(rect);
     return () => {
       window.removeEventListener("scroll", isSticky);
     };

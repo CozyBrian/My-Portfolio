@@ -9,7 +9,7 @@ const SkillsView = () => {
           <div className="col-lg-4 col-md-8 col-sm-10 py-3 mx-4">
             <div className="skill-info">
               <span className="icon">
-                <i class="fa-regular fa-window-maximize" />
+                <i className="fa-regular fa-window-maximize" />
               </span>
               <div className="py-3">
                 <h4 className="skill-title-text">Front-end Developer</h4>
@@ -37,7 +37,7 @@ const SkillsView = () => {
           <div className="col-lg-4 col-md-8 col-sm-10 py-3 mx-4">
             <div className="skill-info">
               <span className="icon">
-                <i class="fa-solid fa-server" />
+                <i className="fa-solid fa-server" />
               </span>
               <div className="py-3">
                 <h4 className="skill-title-text">Back-end Developer</h4>
