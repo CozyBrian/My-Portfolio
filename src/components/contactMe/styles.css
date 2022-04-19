@@ -25,7 +25,15 @@
 
 .contact-info {
   font-size: 20px;
+  color: aliceblue;
 }
+
+.contact-info:hover {
+  color: aliceblue;
+  opacity: 0.7;
+}
+
+
 @media (min-width: 957px) {
   .clg-3 {
     display: grid;

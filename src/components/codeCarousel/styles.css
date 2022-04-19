@@ -28,8 +28,8 @@
 
 .imagee {
   background-color: azure ;
-  height: 350px;  
-  width: 350px;
+  height: 400px;  
+  width: 400px;
   padding: 20px;
   border-radius: 50%;
 }
@@ -47,6 +47,13 @@
 @media (min-width: 1200px) {
   .carousel {
     min-height: 100vh;
+  }
+}
+
+@media (max-width: 1550px) {
+  .imagee {
+    height: 350px;  
+    width: 350px;
   }
 }
 
