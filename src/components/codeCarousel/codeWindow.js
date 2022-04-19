@@ -16,10 +16,11 @@ const CodeWindow = () => {
           typeSpeed={100}
         />
         <p className="code-text-subheader">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          I’m a Full-stack software developer based in Ghana. I love to build
+          mobile and web applications that improve the lives of people. I’m very
+          passionate about connecting the dots between ideas and reality with
+          code. I’m currently a 2nd year student at Kwame Nkrumah University of
+          Science and Technology, Ghana.
         </p>
       </div>
     </div>

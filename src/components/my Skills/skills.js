@@ -14,23 +14,23 @@ const SkillsView = () => {
               <div className="py-3">
                 <h4 className="skill-title-text">Front-end Developer</h4>
                 <p className="skill-desc-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut
+                  The technologies I use to make elegant simple user interfaces
+                  and user experiences
                 </p>
               </div>
               <div className="py-3">
                 <h5 className="skill-subtitle-text">Languages I speak</h5>
-                <p className="skill-desc-text">sdfsdf,dsfsdf,sdfsdf,sdfsdf</p>
+                <p className="skill-desc-text">
+                  HTML, Scss, javascript, typescript
+                </p>
               </div>
               <div className="py-3">
                 <h5 className="skill-subtitle-text">Dev Tools</h5>
-                <p className="skill-desc-text">asdasd</p>
-                <p className="skill-desc-text">asdasd</p>
-                <p className="skill-desc-text">asdasd</p>
-                <p className="skill-desc-text">asdasd</p>
-                <p className="skill-desc-text">asdasd</p>
+                <p className="skill-desc-text">React.js</p>
+                <p className="skill-desc-text">Next.js</p>
+                <p className="skill-desc-text">React Native</p>
+                <p className="skill-desc-text">Bootstrap</p>
+                <p className="skill-desc-text">Adobe Illustrator</p>
               </div>
             </div>
           </div>
@@ -42,23 +42,21 @@ const SkillsView = () => {
               <div className="py-3">
                 <h4 className="skill-title-text">Back-end Developer</h4>
                 <p className="skill-desc-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut
+                  Technologies I use to bring functionality to these beautiful
+                  applications.
                 </p>
               </div>
               <div className="py-3">
                 <h5 className="skill-subtitle-text">Languages I speak</h5>
-                <p className="skill-desc-text">sdfsdf,dsfsdf,sdfsdf,sdfsdf</p>
+                <p className="skill-desc-text">python, javascript, java, c++</p>
               </div>
               <div className="py-3">
                 <h5 className="skill-subtitle-text">Dev Tools</h5>
-                <p className="skill-desc-text">asdasd</p>
-                <p className="skill-desc-text">asdasd</p>
-                <p className="skill-desc-text">asdasd</p>
-                <p className="skill-desc-text">asdasd</p>
-                <p className="skill-desc-text">asdasd</p>
+                <p className="skill-desc-text">Node.js</p>
+                <p className="skill-desc-text">Firebase</p>
+                <p className="skill-desc-text">Express.js</p>
+                <p className="skill-desc-text">mongoDB</p>
+                <p className="skill-desc-text">git</p>
               </div>
             </div>
           </div>
