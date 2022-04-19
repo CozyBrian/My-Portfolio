@@ -1,5 +1,5 @@
 import React from "react";
-import TypeAnimation from "react-type-animation";
+import TypeWriterEffect from "react-typewriter-effect";
 import WindowNav from "./window-nav";
 import "./styles.css";
 
@@ -8,12 +8,12 @@ const CodeWindow = () => {
     <div className="code-window-box">
       <WindowNav />
       <div className="code-text-box">
-        <TypeAnimation
-          className="code-text-header"
-          cursor={true}
-          sequence={["Hello, I'm Brian Newton", 10000, ""]}
-          wrapper="h1"
-          repeat={Infinity}
+        <TypeWriterEffect
+          textStyle={{ fontSize: "80px" }}
+          startDelay={100}
+          cursorColor="white"
+          text="Hello, I'm Brian Newton"
+          typeSpeed={100}
         />
         <p className="code-text-subheader">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

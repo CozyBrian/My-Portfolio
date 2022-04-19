@@ -15,7 +15,7 @@
     "react-bootstrap": "^2.2.2",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
-    "react-type-animation": "^1.1.2",
+    "react-typewriter-effect": "^1.1.0",
     "smoothscroll-polyfill": "^0.4.4",
     "web-vitals": "^2.1.4"
   },
