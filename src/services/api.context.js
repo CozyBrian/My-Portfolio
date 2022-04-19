@@ -1,0 +1,41 @@
+import React, { useState, useEffect, createContext } from "react";
+import { ref, child, get } from "firebase/database";
+
+export const ApiContext = createContext();
+
+const ApiContextProvider = ({ children, db }) => {
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [projects, setProjects] = useState([]);
+
+  const dbRef = ref(db);
+
+  const onLoad = () => {
+    get(child(dbRef, `Projects/`))
+      .then((snapshot) => {
+        if (snapshot.exists()) {
+          setProjects(snapshot.val());
+          console.log("Loaded");
+          setIsLoaded(true);
+        }
+      })
+      .catch((e) => {
+        console.error(e);
+      });
+  };
+
+  useEffect(() => {
+    onLoad();
+  }, []);
+
+  useEffect(() => {
+    console.log(projects);
+  }, [isLoaded]);
+
+  return (
+    <ApiContext.Provider value={{ projects, isLoaded }}>
+      {children}
+    </ApiContext.Provider>
+  );
+};
+
+export default ApiContextProvider;
