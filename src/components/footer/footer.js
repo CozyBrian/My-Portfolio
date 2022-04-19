@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="text-center p-3 foot">
         {cpt}
         <a className="text-light foot" href="https://briannewton.tech/">
-          BrianNewton.tech
+          Brian Newton
         </a>
       </div>
     </footer>
