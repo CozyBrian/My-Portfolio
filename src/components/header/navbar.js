@@ -1,8 +1,31 @@
 import React, { useEffect } from "react";
+import useOnScreen from "../../helpers";
 import "./styles.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
-const NavBar = () => {
+const NavBar = ({ pagerefs }) => {
+  const isVisible = useOnScreen(pagerefs[0]);
+  const isVisible1 = useOnScreen(pagerefs[1]);
+  const isVisible2 = useOnScreen(pagerefs[2]);
+  const isVisible3 = useOnScreen(pagerefs[3]);
+
+  const navlink = document.getElementsByClassName("nav-link");
+
+  useEffect(() => {
+    isVisible
+      ? navlink[0].classList.add("active")
+      : navlink[0].classList.remove("active");
+    isVisible1
+      ? navlink[1].classList.add("active")
+      : navlink[1].classList.remove("active");
+    isVisible2
+      ? navlink[2].classList.add("active")
+      : navlink[2].classList.remove("active");
+    isVisible3
+      ? navlink[3].classList.add("active")
+      : navlink[3].classList.remove("active");
+  });
+
   // Sticky Menu Area
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
