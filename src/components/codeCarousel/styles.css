@@ -11,9 +11,6 @@
   --bs-gutter-x: 0rem;
 }
 
-.image-view-side {
-}
-
 .image-view-box {
   display: flex;
   background-color: #171717;

@@ -3,7 +3,6 @@ import { Card, Button } from "react-bootstrap";
 import "./styles.css";
 
 const ProjectCard = ({ title, disc, image }) => {
-  const Image = require("./IMG_0471.PNG");
   return (
     <div className="proj-box col-lg-4 col-md-6 py-3">
       <Card>

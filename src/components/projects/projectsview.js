@@ -4,7 +4,7 @@ import ProjectCard from "./project-card";
 import "./styles.css";
 
 const ProjectView = () => {
-  const { isLoaded, projects } = useContext(ApiContext);
+  const { projects } = useContext(ApiContext);
 
   return (
     <div className="row proj-box-con" id="projects">

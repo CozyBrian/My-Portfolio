@@ -25,11 +25,8 @@ const ApiContextProvider = ({ children, db }) => {
 
   useEffect(() => {
     onLoad();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
-  useEffect(() => {
-    console.log(projects);
-  }, [isLoaded]);
 
   return (
     <ApiContext.Provider value={{ projects, isLoaded }}>
