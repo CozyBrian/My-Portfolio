@@ -26,8 +26,7 @@
   border-top-right-radius: 10px;
 }
 
-.imagee {
-  background-color: azure ;
+.profile-image {
   height: 400px;  
   width: 400px;
   padding: 20px;
@@ -51,14 +50,14 @@
 }
 
 @media (max-width: 1550px) {
-  .imagee {
+  .profile-image {
     height: 350px;  
     width: 350px;
   }
 }
 
 @media (max-width: 1390px) {
-  .imagee {
+  .profile-image {
     height: 250px;  
     width: 250px;
   }
