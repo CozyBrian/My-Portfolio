@@ -10,7 +10,12 @@ const ProjectView = () => {
     <div className="row proj-box-con" id="projects">
       <h1 className="heading">PROJECTS</h1>
       {projects.map((item) => (
-        <ProjectCard image={item.image} title={item.title} disc={item.disc} />
+        <ProjectCard
+          image={item.image}
+          title={item.title}
+          disc={item.disc}
+          link={item.link}
+        />
       ))}
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 import "./styles.css";
 
-const ProjectCard = ({ title, disc, image }) => {
+const ProjectCard = ({ title, disc, image, link }) => {
   return (
     <div className="proj-box col-lg-4 col-md-6 py-3">
       <Card>
@@ -10,7 +10,9 @@ const ProjectCard = ({ title, disc, image }) => {
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{disc}</Card.Text>
-          <Button variant="primary">Visit Github</Button>
+          <Button href={link} variant="primary">
+            Visit Github
+          </Button>
         </Card.Body>
       </Card>
     </div>
