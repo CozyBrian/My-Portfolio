@@ -25,6 +25,11 @@ const ApiContextProvider = ({ children, db }) => {
 
   useEffect(() => {
     onLoad();
+    setTimeout(() => {
+      if (!isLoaded) {
+        onLoad();
+      }
+    }, 3000);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
