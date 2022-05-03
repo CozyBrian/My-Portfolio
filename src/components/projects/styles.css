@@ -1,4 +1,5 @@
 .proj-box-con {
+  display: block;
   flex-direction: row;
   text-align: -webkit-center;
   padding: 86px 18px 18px 18px;
@@ -81,10 +82,30 @@
   border-bottom: 0;
 }
 
-.tab-content > .active {
-  display: flex;
+@media (min-width: 850px) {
+  .tab-content > .active {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-height: 70vh;
+    align-items: center;
+  }
 }
 
-.temp-box {
-  height: 100%;
+.nav-tabs .nav-link {
+  border-top-right-radius: 0rem;
+  border-top-left-radius: 0rem;
+}
+
+#uncontrolled-tab-example-tab-mobile {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+#uncontrolled-tab-example-tab-web {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #ffffff84;
 }

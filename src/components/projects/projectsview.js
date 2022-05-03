@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import { ApiContext } from "../../services/api.context";
@@ -7,6 +7,29 @@ import "./styles.css";
 
 const ProjectView = () => {
   const { projects, isLoaded } = useContext(ApiContext);
+
+  useEffect(() => {
+    const wtabp = document.getElementById(
+      "uncontrolled-tab-example-tabpane-web"
+    );
+
+    const wtab = document.getElementById("uncontrolled-tab-example-tab-web");
+
+    wtab.addEventListener("click", () => {
+      mtabp.classList.remove("active");
+      mtabp.classList.remove("show");
+      mtab.classList.remove("active");
+    });
+
+    const mtab = document.getElementById("uncontrolled-tab-example-tab-mobile");
+    mtab.classList.add("active");
+
+    const mtabp = document.getElementById(
+      "uncontrolled-tab-example-tabpane-mobile"
+    );
+    mtabp.classList.add("active");
+    mtabp.classList.add("show");
+  }, []);
 
   const item = {
     disc: "MealsToGo is a restauant and food look-up app.You can find restaurants and check their menu and opening hours. Uses and api to fetch restaurants.",
@@ -24,7 +47,7 @@ const ProjectView = () => {
         id="uncontrolled-tab-example"
         className="mb-3"
       >
-        <Tab eventKey="home" title="Home">
+        <Tab eventKey="mobile" title="Mobile">
           {isLoaded ? (
             projects.map((item, i) => (
               <ProjectCard
@@ -39,7 +62,7 @@ const ProjectView = () => {
             <h3>Error loading Projects.</h3>
           )}
         </Tab>
-        <Tab eventKey="profile" title="Profile">
+        <Tab eventKey="web" title="Web">
           <ProjectCard
             image={item.image}
             title={item.title}
