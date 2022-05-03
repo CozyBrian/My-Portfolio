@@ -9,10 +9,6 @@ const ProjectView = () => {
   const { projects, isLoaded } = useContext(ApiContext);
 
   useEffect(() => {
-    const wtabp = document.getElementById(
-      "uncontrolled-tab-example-tabpane-web"
-    );
-
     const wtab = document.getElementById("uncontrolled-tab-example-tab-web");
 
     wtab.addEventListener("click", () => {
