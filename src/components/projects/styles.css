@@ -32,6 +32,14 @@
   align-self: center;
 }
 
+.card-img-top-web {
+  width: 100%;
+  padding: 2px;
+  align-self: center;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+}
+
 .card-text {
   font-size: 16px;
 }
@@ -100,10 +108,12 @@
 #uncontrolled-tab-example-tab-mobile {
   border-top-left-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
+  border-color: #fff;
 }
 #uncontrolled-tab-example-tab-web {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
+  border-color: #fff;
 }
 
 .nav-link:hover, .nav-link:focus {
