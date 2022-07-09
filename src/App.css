@@ -7,8 +7,6 @@
   color: white;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  overflow-y: scroll;
-
 }
 .child {
   scroll-snap-align: start;
