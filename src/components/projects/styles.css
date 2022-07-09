@@ -96,8 +96,13 @@
     align-content: center;
     min-height: 70vh;
     align-items: center;
-    overflow: scroll;
+    overflow-x: scroll;
   }
+}
+
+.fade.tab-pane.active.show::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
 }
 
 .nav-tabs .nav-link {
