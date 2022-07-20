@@ -98,6 +98,15 @@
     align-items: center;
     overflow-x: scroll;
   }
+  
+  .projectsContainer {
+    padding: 0 14vw;
+  }
+}
+@media (max-width: 1220px) and (min-width: 500px) {
+  .projectsContainer {
+    padding: 0 8vw;
+  }
 }
 
 .fade.tab-pane.active.show::-webkit-scrollbar { /* WebKit */

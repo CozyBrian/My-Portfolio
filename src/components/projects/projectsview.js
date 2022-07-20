@@ -38,44 +38,46 @@ const ProjectView = () => {
   return (
     <div className="row proj-box-con" id="projects">
       <h1 className="heading">PROJECTS</h1>
-      <Tabs
-        defaultActiveKey="profile"
-        id="uncontrolled-tab-example"
-        className="mb-3"
-      >
-        <Tab eventKey="mobile" title="Mobile">
-          {isLoaded ? (
-            mobileProj.map((item, i) => (
-              <ProjectCard
-                key={i}
-                image={item.image}
-                title={item.title}
-                disc={item.disc}
-                link={item.link}
-                type={item.type}
-              />
-            ))
-          ) : (
-            <h3>Looks Like we had a problem. Try Refreshing the page</h3>
-          )}
-        </Tab>
-        <Tab eventKey="web" title="Web">
-          {isLoaded ? (
-            webProj.map((item, i) => (
-              <ProjectCard
-                key={i}
-                image={item.image}
-                title={item.title}
-                disc={item.disc}
-                link={item.link}
-                type={item.type}
-              />
-            ))
-          ) : (
-            <h3>Looks Like we had a problem. Try Refreshing the page</h3>
-          )}
-        </Tab>
-      </Tabs>
+      <div className="projectsContainer">
+        <Tabs
+          defaultActiveKey="profile"
+          id="uncontrolled-tab-example"
+          className="mb-3"
+        >
+          <Tab eventKey="mobile" title="Mobile">
+            {isLoaded ? (
+              mobileProj.map((item, i) => (
+                <ProjectCard
+                  key={i}
+                  image={item.image}
+                  title={item.title}
+                  disc={item.disc}
+                  link={item.link}
+                  type={item.type}
+                />
+              ))
+            ) : (
+              <h3>Looks Like we had a problem. Try Refreshing the page</h3>
+            )}
+          </Tab>
+          <Tab eventKey="web" title="Web">
+            {isLoaded ? (
+              webProj.map((item, i) => (
+                <ProjectCard
+                  key={i}
+                  image={item.image}
+                  title={item.title}
+                  disc={item.disc}
+                  link={item.link}
+                  type={item.type}
+                />
+              ))
+            ) : (
+              <h3>Looks Like we had a problem. Try Refreshing the page</h3>
+            )}
+          </Tab>
+        </Tabs>
+      </div>
     </div>
   );
 };
