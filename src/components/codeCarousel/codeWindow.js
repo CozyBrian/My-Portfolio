@@ -17,10 +17,9 @@ const CodeWindow = () => {
         />
         <p className="code-text-subheader">
           I’m a Full-stack software developer based in Ghana. I love to build
-          mobile and web applications that improve the lives of people. I’m very
-          passionate about connecting the dots between ideas and reality with
-          code. I’m currently a 2nd year student at Kwame Nkrumah University of
-          Science and Technology, Ghana.
+          mobile and web applications that improve the lives of people all
+          around the world and I’m very passionate about connecting the dots
+          between ideas and reality with code.
         </p>
       </div>
     </div>
