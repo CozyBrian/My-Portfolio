@@ -16,7 +16,12 @@ const ProjectCard = ({ title, disc, image, link, type }) => {
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{disc}</Card.Text>
-          <Button href={link} variant="primary">
+          <Button
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="primary"
+          >
             Visit Github
           </Button>
         </Card.Body>
