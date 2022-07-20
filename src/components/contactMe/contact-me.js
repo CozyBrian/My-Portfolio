@@ -14,14 +14,9 @@ const ContactMeView = () => {
               <i className="fa-solid fa-envelope" />
             </span>
             <p className="icon-label">EMAIL</p>
-            <p className="contact-info">Kwabbenanewton02@gmail.com</p>
-          </div>
-          <div className="clg-3 cmd-6 csm cont">
-            <span className="icon">
-              <i className="fa-solid fa-mobile-button" />
-            </span>
-            <p className="icon-label">PHONE</p>
-            <p className="contact-info">+233 50 258 6042</p>
+            <a href="mailto:kwabenanewton02@gmail.com" className="contact-info">
+              Kwabenanewton02@gmail.com
+            </a>
           </div>
           <div className="clg-3 cmd-6 csm cont">
             <span className="icon">

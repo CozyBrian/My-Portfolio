@@ -9,7 +9,7 @@ const CodeWindow = () => {
       <WindowNav />
       <div className="code-text-box">
         <TypeWriterEffect
-          textStyle={{ fontSize: "80px" }}
+          textStyle={{ fontSize: "70px" }}
           startDelay={100}
           cursorColor="white"
           text="Hello, I'm Brian Newton"
